@@ -2,6 +2,9 @@
 
 This script processes images and their associated JSON files, filters them based on specified criteria, and creates a YOLO-compatible dataset structure with train/val/test splits.
 
+**Note**
+This tool is part of a larger project for creating a web-scraped image dataset for training YOLO models. The full project is available [on HuggingFace](https://huggingface.co/datasets/lreal/BingRecycle40k).
+
 ## Features
 
 - **Recursive Processing**: Supports recursive subdirectories in both input and JSON directories
